@@ -1,0 +1,42 @@
+{
+  "_from": "git+https://github.com/eddyshn/cordova-plugin-demo.git",
+  "_id": "cordova-plugin-plugindemo@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-plugindemo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/eddyshn/cordova-plugin-demo.git",
+    "rawSpec": "https://github.com/eddyshn/cordova-plugin-demo.git",
+    "saveSpec": "git+https://github.com/eddyshn/cordova-plugin-demo.git",
+    "fetchSpec": "https://github.com/eddyshn/cordova-plugin-demo.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/eddyshn/cordova-plugin-demo.git#a398a45d652c4733ec78a16e9e1eb56fe461c752",
+  "_spec": "https://github.com/eddyshn/cordova-plugin-demo.git",
+  "_where": "D:\\github\\blankApp",
+  "author": "",
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-plugindemo",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "https://medium.com/@durgavundavalli/ionic5-cordova-custom-plugin-for-objective-c-e4e82c5fbc3b",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-plugindemo",
+  "version": "1.0.0"
+}
