@@ -11,7 +11,9 @@ export class PluginDemo {
             (window as any).cordova.plugins.PluginDemo.coolMethod(arg0,
                 (data: any) => {
                     subscriber .next(data);
-                    subscriber .complete();
+                    if (data === 'complete') {
+                        subscriber .complete();
+                    }
                 },
                 (error: any) => {
                     subscriber .error(error);

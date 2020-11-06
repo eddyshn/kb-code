@@ -14,8 +14,11 @@ dist/
 *.class
 *.log
 
-cordova/www/
 
 # Gradle files
 .gradle/
 build/
+
+
+/cordova/**/www/
+/cordova/**/platforms/

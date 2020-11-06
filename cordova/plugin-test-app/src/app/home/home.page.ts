@@ -24,10 +24,11 @@ export class HomePage {
         // }, (x) => {
         //   console.log(x);
         // });
-        //
+
         // 方法2
         this.pluginDemo.coolMethod(this.inputValue).subscribe((data) => {
-                alert('execute successfully');
+                alert(data);
+                // console.log('aaa-----',data);
             },
             (error => {
                 console.log(error);
